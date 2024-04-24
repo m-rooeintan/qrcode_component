@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+    /* font-weight: 400; */
+}
+
+@font-face {
+    font-family: 'Outfit Bold';
+    src: url('https://fonts.googleapis.com/css2?family=Outfit:wght@700&display=swap');
+    /* font-weight: 700; */
+}
+

@@ -1,0 +1,119 @@
+/* !---Initialize---! */
+
+:root {
+    --white: hsl(0, 0%, 100%);
+    --lightgray: hsl(212, 45%, 89%);
+    --grayishblue: hsl(220, 15%, 55%);
+    --darkblue: hsl(218, 44%, 22%);
+    --blue: hsl(228, 45%, 44%);
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: "Outfit";
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+
+/* !---Component Style---! */
+
+body {
+    background-color: var(--lightgray);
+    display: flex;
+    /* align-items: center; */
+    /* align-content: center; */
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container {
+    background-color: var(--white);
+    width: 32rem;
+    height: 49.7rem;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    margin-top: 10rem;
+}
+
+.card {
+    width: 28.8rem;
+    height: 100%;
+    padding: 0;
+    /* margin-top: 1.6rem; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-around; */
+}
+
+.qrcode {
+    width: 28.8rem;
+    height: 28.8rem;
+    margin-top: 1.6rem;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.qrcode__img {
+    width: 28.8rem;
+    height: 28.8rem;
+    object-fit: cover;
+
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 1.5rem;
+    text-align: center;
+    width: 28.8rem;
+    flex-basis: 35%;
+}
+
+
+.text__title {
+    font-size: 2.2rem;
+    font-weight: 400;
+    color: var(--darkblue);
+}
+
+.text__exp {
+    padding: 1.5rem;
+}
+
+.text__paragraph {
+    color: var(--grayishblue);
+    text-align: center;
+}
+
+.attribution {
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.attribution a {
+    color: var(--blue);
+}
